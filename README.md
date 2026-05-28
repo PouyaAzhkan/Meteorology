@@ -1,4 +1,4 @@
-## 🌇 Meteorology
+## ⛅ Meteorology
 
 > 🚀 A platform for comprehensive weather analysis of the entire world  
 
