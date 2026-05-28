@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Cinzel Decorative", cursive;
+  font-size: 2rem;
+  height: 100vh;
+   color: black;
+  background-color: #35b7e6;
+  background: url(../src/assets/pexels-nordrii-12281898.jpg) no-repeat 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 112rem;
+  gap: 4rem;
+  padding: 6rem 0;
+  border: 3px solid #1065dc;
+  outline: 3px solid #1065dc;
+  outline-offset: 1.2rem;
+  backdrop-filter: blur(5px);
+  border-radius: 10px;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 6rem;
+  letter-spacing: 2px;
+  word-spacing: 5px;
+  color: black;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 2.4rem;
+}
+
+input {
+  font-family: inherit;
+  color: inherit;
+  font-size: 2rem;
+  background-color: #1065dc;
+  padding: 1.6rem 3.2rem;
+  border: none;
+  width: 32rem;
+  border-radius: 10px;
+  color: #fff;
+  font-weight: 700;
+}
+
+input:focus {
+  outline: 2px solid #222;
+}
+
+.weather {
+  list-style: none;
+  display: flex;
+  gap: 2.4rem;
+}
+
+.day {
+  background-color: #1065dc;
+  padding: 1.6rem 0 2rem;
+  width: 12.8rem;
+border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.2rem;
+  cursor: pointer;
+   color: #fff;
+  font-weight: 700;
+}
+
+.day span {
+  font-size: 5.2rem;
+}
+
+.day.important {
+  background-color: #ecc5c0;
+  outline: 2px solid #222;
+}
+
+.loader {
+  font-size: 2.4rem;
+  font-weight: 700;
+}
