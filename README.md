@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## 🌇 Meteorology
 
 > 🚀 A platform for comprehensive weather analysis of the entire world  
@@ -39,3 +40,7 @@ npm run dev
 If you liked it, leave a ⭐ star and share it with your friends!
 
 
+=======
+# Meteorology
+this is amall project about comprehensive weather analysis of the entire world  .
+>>>>>>> 65eca3357fa8c8093717dbcb7a0c88a2adef4641
